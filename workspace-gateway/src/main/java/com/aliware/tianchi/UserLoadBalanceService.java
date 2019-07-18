@@ -55,9 +55,9 @@ public class UserLoadBalanceService {
         }else{
             //limiter.set(availCount);
         }
-        Date now = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String nowStr = sdf.format(now);
+        //Date now = new Date();
+        //SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        //String nowStr = sdf.format(now);
         //System.out.println(String.format("时间:%s,环境:%s,活跃线程数:%s,可用线程数:%s,请求数:%s,平均耗时:%s,权重:%s", 
             //nowStr,quota,activeCount,availCount,reqCount,avgTime,serverLoadInfo.getWeight()));
     }
